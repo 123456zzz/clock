@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+div {
+    display: -webkit-flex; /* Safari */
+    display: flex;
+    /* 容器属性定义 */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+}
+#clock {
+    border: 1px solid #000000;
+}
